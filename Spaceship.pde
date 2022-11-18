@@ -5,7 +5,7 @@ class Spaceship extends Floater
       xCorners = new int []{-9, 17, -9, -3};
       yCorners = new int []{-9, 0, 9, 0}; 
       myColor = color(129, 105, 237);
-      myXspeed = myYspeed = (Math.random()*3)+1;
+      myXspeed = myYspeed = 0;
       myCenterX = width/2;
       myCenterY = height/2; 
       myPointDirection = Math.random()*2*PI; 
