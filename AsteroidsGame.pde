@@ -35,11 +35,11 @@ public void keyPressed(){
     jose.hyperspace(); //hyperspace
   }
   
-  if(key=='l'){
+  if(key=='w'){
     jose.accelerate(Math.random()*2);//accelerate
   }
   
-  if(key=='k'){
+  if(key=='s'){
     jose.accelerate((Math.random()*2)-2);//decelerate 
   }
   
