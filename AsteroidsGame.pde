@@ -31,7 +31,7 @@ public void keyPressed(){
   if (key == 'd'){
     jose.turn(45); //turn clockwise
   } 
-  if (key == 'h'){
+  if (key == 'f'){
     jose.hyperspace(); //hyperspace
   }
   
